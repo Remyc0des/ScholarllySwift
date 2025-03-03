@@ -10,28 +10,30 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        
-        TabView {
-            StudentHomeView()
-                .tabItem() {
-                    Image(systemName: "phone.fill")
-                }
-            RecomendationView()
-                .tabItem() {
-                    Image(systemName: "person.2.fill")
-                        }
-            BrowseView()
-                .tabItem() {
-                    Image(systemName: "slider.horizontal.3")
+       
+                ZStack{
+                    
+                    TabView {
+                        
+                        
+                    
+                        BrowseView()
+                            .tabItem() {
+                                Image(systemName: "slider.horizontal.3")
+                            }
+                        ProfileView()
+                            .tabItem() {
+                                Image(systemName:"person.2.fill")
+                                }
+                            }
+                    
+                    
+                    
                     }
-            SearchView()
-                .tabItem() {
-                    Image(systemName:"person.2.fill")
+        
                 }
-            
+    
             }
-        }
-    }
 
 
 #Preview {

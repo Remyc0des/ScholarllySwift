@@ -18,7 +18,7 @@ func pullAllPrograms(){
         let institution: String
         let eligibility: [String]
         let match_score: Int
-        let deadline: Date
+        
         let tags: [String]
     }
 
@@ -29,7 +29,7 @@ func pullAllPrograms(){
     request.setValue("application/json", forHTTPHeaderField: "Content-Type")
     
     let task = URLSession.shared.dataTask(with: request){ data, response, error in
-        if let error = error {
+        if error != nil {
             print("error fetching majors")
             return
         }

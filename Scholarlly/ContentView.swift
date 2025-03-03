@@ -7,15 +7,36 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+    @ObservedObject var sessionManager = SessionManager.shared
+    
+    init () {
+        
+        //first launch
+        if !UserDefaults.standard.bool(forKey: "isFirstLaunch") {
+            UserDefaults.standard.set(true, forKey: "isFirstLaunch")
+        } else {
+            sessionManager.setFirstLaunch(false)
         }
-        .padding()
+        
+        //user login
+        if UserDefaults.standard.bool(forKey: "UserLoggedIn") {
+            sessionManager.setCurrentState(.LoggedIn)
+        } else {
+            sessionManager.setCurrentState(.LoggedOut)
+        }
+    }
+
+    var body: some View {
+        if sessionManager.firstLaunch {
+            OnboardingView()
+        } else if sessionManager.currentState == .LoggedIn {
+            MainView()
+        } else  {
+            OnboardingView()
+        }
     }
 }
 

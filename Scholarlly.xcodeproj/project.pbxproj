@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F18A8172C99032A0025BD9D /* font in Resources */ = {isa = PBXBuildFile; fileRef = 3F18A8162C99032A0025BD9D /* font */; };
+		3F5B6D0B2C704FC80045E267 /* MajorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B6D0A2C704FC80045E267 /* MajorManager.swift */; };
+		3F5B6D0D2C7088230045E267 /* InterestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B6D0C2C7088230045E267 /* InterestManager.swift */; };
+		3F60D7EB2CF4E90E00BE241B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60D7EA2CF4E90E00BE241B /* ViewController.swift */; };
+		3FA6E5962CDBD31000E8D4B8 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3FA6E5952CDBD31000E8D4B8 /* iPhoneNumberField */; };
+		3FC3827B2C92239B00133E86 /* CardSwipeingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3827A2C92239B00133E86 /* CardSwipeingContainer.swift */; };
+		3FC3827D2C92295E00133E86 /* SwipeableCardsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3827C2C92295E00133E86 /* SwipeableCardsManager.swift */; };
+		3FC3827F2C9229F800133E86 /* ProgramsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3827E2C9229F800133E86 /* ProgramsManager.swift */; };
+		3FC382812C940B6F00133E86 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC382802C940B6F00133E86 /* CardView.swift */; };
+		3FEA863B2C732A5A00794319 /* Viewbuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA863A2C732A5A00794319 /* Viewbuild.swift */; };
+		3FEA863D2C7449F300794319 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA863C2C7449F300794319 /* LoginView.swift */; };
+		3FEA863F2C76A7A900794319 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA863E2C76A7A900794319 /* ProfileView.swift */; };
+		3FEA86412C76A8A800794319 /* StudentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA86402C76A8A800794319 /* StudentHomeView.swift */; };
+		3FEA86432C76AA5100794319 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA86422C76AA5100794319 /* SearchView.swift */; };
+		3FEA86452C76AAF100794319 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA86442C76AAF100794319 /* BrowseView.swift */; };
 		3FFA4E492C6FB8EF0024B97E /* ScholarllyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E482C6FB8EF0024B97E /* ScholarllyApp.swift */; };
 		3FFA4E4B2C6FB8EF0024B97E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E4A2C6FB8EF0024B97E /* ContentView.swift */; };
 		3FFA4E4D2C6FB8F10024B97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA4E4C2C6FB8F10024B97E /* Assets.xcassets */; };
@@ -14,6 +29,12 @@
 		3FFA4E5A2C6FB8F10024B97E /* ScholarllyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E592C6FB8F10024B97E /* ScholarllyTests.swift */; };
 		3FFA4E642C6FB8F10024B97E /* ScholarllyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E632C6FB8F10024B97E /* ScholarllyUITests.swift */; };
 		3FFA4E662C6FB8F10024B97E /* ScholarllyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E652C6FB8F10024B97E /* ScholarllyUITestsLaunchTests.swift */; };
+		3FFA4E752C6FBCA60024B97E /* SignupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E742C6FBCA60024B97E /* SignupManager.swift */; };
+		3FFA4E772C6FC0C40024B97E /* StudentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E762C6FC0C40024B97E /* StudentManager.swift */; };
+		3FFA4E7A2C6FC9240024B97E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E792C6FC9240024B97E /* MainView.swift */; };
+		3FFA4E7C2C6FC9760024B97E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E7B2C6FC9760024B97E /* OnboardingView.swift */; };
+		3FFA4E7E2C6FCB1D0024B97E /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E7D2C6FCB1D0024B97E /* SignupView.swift */; };
+		3FFA4E802C6FCB5E0024B97E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA4E7F2C6FCB5E0024B97E /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F18A8162C99032A0025BD9D /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
+		3F18A8182C9904700025BD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F5B6D0A2C704FC80045E267 /* MajorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorManager.swift; sourceTree = "<group>"; };
+		3F5B6D0C2C7088230045E267 /* InterestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestManager.swift; sourceTree = "<group>"; };
+		3F60D7EA2CF4E90E00BE241B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC3827A2C92239B00133E86 /* CardSwipeingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwipeingContainer.swift; sourceTree = "<group>"; };
+		3FC3827C2C92295E00133E86 /* SwipeableCardsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardsManager.swift; sourceTree = "<group>"; };
+		3FC3827E2C9229F800133E86 /* ProgramsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsManager.swift; sourceTree = "<group>"; };
+		3FC382802C940B6F00133E86 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3FEA863A2C732A5A00794319 /* Viewbuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewbuild.swift; sourceTree = "<group>"; };
+		3FEA863C2C7449F300794319 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3FEA863E2C76A7A900794319 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3FEA86402C76A8A800794319 /* StudentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeView.swift; sourceTree = "<group>"; };
+		3FEA86422C76AA5100794319 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3FEA86442C76AAF100794319 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		3FFA4E452C6FB8EF0024B97E /* Scholarlly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scholarlly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFA4E482C6FB8EF0024B97E /* ScholarllyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarllyApp.swift; sourceTree = "<group>"; };
 		3FFA4E4A2C6FB8EF0024B97E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +80,12 @@
 		3FFA4E5F2C6FB8F10024B97E /* ScholarllyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScholarllyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFA4E632C6FB8F10024B97E /* ScholarllyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarllyUITests.swift; sourceTree = "<group>"; };
 		3FFA4E652C6FB8F10024B97E /* ScholarllyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarllyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FFA4E742C6FBCA60024B97E /* SignupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupManager.swift; sourceTree = "<group>"; };
+		3FFA4E762C6FC0C40024B97E /* StudentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentManager.swift; sourceTree = "<group>"; };
+		3FFA4E792C6FC9240024B97E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3FFA4E7B2C6FC9760024B97E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3FFA4E7D2C6FCB1D0024B97E /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		3FFA4E7F2C6FCB5E0024B97E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA6E5962CDBD31000E8D4B8 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +114,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5B6D052C70347C0045E267 /* SignupViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignupViews;
+			sourceTree = "<group>";
+		};
+		3F60D7EC2CF5804800BE241B /* Mainviews */ = {
+			isa = PBXGroup;
+			children = (
+				3FEA86422C76AA5100794319 /* SearchView.swift */,
+				3FEA86402C76A8A800794319 /* StudentHomeView.swift */,
+				3FEA863E2C76A7A900794319 /* ProfileView.swift */,
+				3FEA86442C76AAF100794319 /* BrowseView.swift */,
+			);
+			path = Mainviews;
+			sourceTree = "<group>";
+		};
 		3FFA4E3C2C6FB8EF0024B97E = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +155,17 @@
 		3FFA4E472C6FB8EF0024B97E /* Scholarlly */ = {
 			isa = PBXGroup;
 			children = (
+				3F18A8182C9904700025BD9D /* Info.plist */,
+				3F18A8162C99032A0025BD9D /* font */,
 				3FFA4E482C6FB8EF0024B97E /* ScholarllyApp.swift */,
 				3FFA4E4A2C6FB8EF0024B97E /* ContentView.swift */,
+				3FFA4E792C6FC9240024B97E /* MainView.swift */,
+				3F60D7EC2CF5804800BE241B /* Mainviews */,
+				3F60D7EA2CF4E90E00BE241B /* ViewController.swift */,
+				3FC3827A2C92239B00133E86 /* CardSwipeingContainer.swift */,
+				3FC382802C940B6F00133E86 /* CardView.swift */,
+				3FFA4E732C6FBC810024B97E /* Managers */,
+				3FFA4E722C6FBC520024B97E /* Onboarding */,
 				3FFA4E4C2C6FB8F10024B97E /* Assets.xcassets */,
 				3FFA4E4E2C6FB8F10024B97E /* Preview Content */,
 			);
@@ -127,6 +197,32 @@
 			path = ScholarllyUITests;
 			sourceTree = "<group>";
 		};
+		3FFA4E722C6FBC520024B97E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3F5B6D052C70347C0045E267 /* SignupViews */,
+				3FFA4E7B2C6FC9760024B97E /* OnboardingView.swift */,
+				3FFA4E7D2C6FCB1D0024B97E /* SignupView.swift */,
+				3FEA863A2C732A5A00794319 /* Viewbuild.swift */,
+				3FEA863C2C7449F300794319 /* LoginView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3FFA4E732C6FBC810024B97E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3827C2C92295E00133E86 /* SwipeableCardsManager.swift */,
+				3FC3827E2C9229F800133E86 /* ProgramsManager.swift */,
+				3FFA4E742C6FBCA60024B97E /* SignupManager.swift */,
+				3F5B6D0A2C704FC80045E267 /* MajorManager.swift */,
+				3FFA4E762C6FC0C40024B97E /* StudentManager.swift */,
+				3FFA4E7F2C6FCB5E0024B97E /* SessionManager.swift */,
+				3F5B6D0C2C7088230045E267 /* InterestManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +239,9 @@
 			dependencies = (
 			);
 			name = Scholarlly;
+			packageProductDependencies = (
+				3FA6E5952CDBD31000E8D4B8 /* iPhoneNumberField */,
+			);
 			productName = Scholarlly;
 			productReference = 3FFA4E452C6FB8EF0024B97E /* Scholarlly.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +314,9 @@
 				Base,
 			);
 			mainGroup = 3FFA4E3C2C6FB8EF0024B97E;
+			packageReferences = (
+				3FA6E5942CDBD31000E8D4B8 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = 3FFA4E462C6FB8EF0024B97E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F18A8172C99032A0025BD9D /* font in Resources */,
 				3FFA4E502C6FB8F10024B97E /* Preview Assets.xcassets in Resources */,
 				3FFA4E4D2C6FB8F10024B97E /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +360,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFA4E7E2C6FCB1D0024B97E /* SignupView.swift in Sources */,
+				3FEA86412C76A8A800794319 /* StudentHomeView.swift in Sources */,
 				3FFA4E4B2C6FB8EF0024B97E /* ContentView.swift in Sources */,
+				3F5B6D0B2C704FC80045E267 /* MajorManager.swift in Sources */,
+				3F5B6D0D2C7088230045E267 /* InterestManager.swift in Sources */,
+				3FFA4E772C6FC0C40024B97E /* StudentManager.swift in Sources */,
+				3FC3827B2C92239B00133E86 /* CardSwipeingContainer.swift in Sources */,
 				3FFA4E492C6FB8EF0024B97E /* ScholarllyApp.swift in Sources */,
+				3FEA863D2C7449F300794319 /* LoginView.swift in Sources */,
+				3FEA86452C76AAF100794319 /* BrowseView.swift in Sources */,
+				3FEA863B2C732A5A00794319 /* Viewbuild.swift in Sources */,
+				3FFA4E7C2C6FC9760024B97E /* OnboardingView.swift in Sources */,
+				3FEA86432C76AA5100794319 /* SearchView.swift in Sources */,
+				3FFA4E7A2C6FC9240024B97E /* MainView.swift in Sources */,
+				3FC382812C940B6F00133E86 /* CardView.swift in Sources */,
+				3FFA4E802C6FCB5E0024B97E /* SessionManager.swift in Sources */,
+				3FEA863F2C76A7A900794319 /* ProfileView.swift in Sources */,
+				3FC3827F2C9229F800133E86 /* ProgramsManager.swift in Sources */,
+				3F60D7EB2CF4E90E00BE241B /* ViewController.swift in Sources */,
+				3FC3827D2C92295E00133E86 /* SwipeableCardsManager.swift in Sources */,
+				3FFA4E752C6FBCA60024B97E /* SignupManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +547,7 @@
 				DEVELOPMENT_TEAM = C372UWXB98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scholarlly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +577,7 @@
 				DEVELOPMENT_TEAM = C372UWXB98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scholarlly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +712,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FA6E5942CDBD31000E8D4B8 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FA6E5952CDBD31000E8D4B8 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FA6E5942CDBD31000E8D4B8 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3FFA4E3D2C6FB8EF0024B97E /* Project object */;
 }

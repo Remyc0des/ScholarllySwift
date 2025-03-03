@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Programs: Decodable {
+struct Programs: Decodable, Hashable {
     let title: String
     let description: String
     let opp_type: String
     let institution: String
     let eligibility: [String]
-    let match_score: Int
+    let match_score: Int?
     let deadline: Date
     let tags: [String]
     

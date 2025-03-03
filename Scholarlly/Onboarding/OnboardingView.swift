@@ -9,7 +9,41 @@ import SwiftUI
 
 struct OnboardingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            ZStack {
+                Color.blue.ignoresSafeArea()
+                VStack{
+                    
+                    
+                    
+                    Text("Find something to do Elevate yourself ")
+                    NavigationLink(destination: SignupView()) {
+                        Text("Sign Up")
+                            .font(.headline)
+                            .foregroundColor(.black)
+                            .frame(height: 55)
+                            .frame(maxWidth: .infinity)
+                            .background(Color.mint)
+                            .cornerRadius(10)
+                    }
+                    .padding()
+                    NavigationLink(destination: LoginView(lviewModel: LoginViewModel())) {
+                        Text("Log In")
+                            .font(.headline)
+                            .foregroundColor(.black)
+                            .frame(height: 55)
+                            .frame(maxWidth: .infinity)
+                            .background(Color.mint)
+                            .cornerRadius(10)
+                    }
+                    .padding()
+                    
+                    
+                    
+                    
+                }
+            }
+        }
     }
 }
 

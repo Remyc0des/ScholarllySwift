@@ -1,5 +1,5 @@
 //
-//  SearchView.swift
+//  ProflieView.swift
 //  Scholarlly
 //
 //  Created by student on 8/21/24.
@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct SearchView: View {
+struct ProfileView: View {
     var body: some View {
         ZStack{
             Color.ivory
                 .ignoresSafeArea()
             
-            Text("Browse View")
+            Button("log out", action: SignupManager.shared.logUserOut)
         }
     }
 }
 
 #Preview {
-    SearchView()
+    ProfileView()
 }
